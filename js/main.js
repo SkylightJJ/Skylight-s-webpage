@@ -98,7 +98,7 @@ function togglePlay() {
         audio.pause()
         audio.currentTime = 0
         curSong = curSel
-        audio.src = 'music/' + songs.at(curSong).file + '.mp3'
+        audio.src = 'https://cdn.jsdelivr.net/gh/SkylightJJ/Skylight-s-webpage/music/' + songs.at(curSong).file + '.mp3'
     }
 
     if (audio.paused) {
