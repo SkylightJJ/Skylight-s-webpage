@@ -79,6 +79,7 @@ const songs = [
     {name: "Pause Screen", artist: "Skylight JJ", bpm: 100, locked: false, file: "pause"},
     {name: "POWER PLANT (Cover)", artist: "2 (Cover by Skylight JJ)", bpm: 150, locked: false, file: "power"},
     {name: "Cool Test", artist: "Skylight JJ", bpm: 60, locked: true, file: "test"},
+    {name: "TEST", artist: "me! :)", locked: false, file:"test"},
 ]
 
 var beatTimeout
