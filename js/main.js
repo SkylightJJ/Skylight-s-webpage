@@ -75,7 +75,7 @@ addEventListener("keydown", function(e){
 /////////////
 
 const songs = [
-    {name: "Epsom Bathhouse", artist: "Skylight JJ", bpm: 80, locked: false, file: "epsom"},
+    {name: "Epsom Bathhouse", artist: "Skylight JJ", bpm: 80, locked: false, file: "https://github.com/SkylightJJ/Skylight-s-webpage/raw/refs/heads/main/music/epsom.mp3"},
     {name: "Pause Screen", artist: "Skylight JJ", bpm: 100, locked: false, file: "pause"},
     {name: "POWER PLANT (Cover)", artist: "2 (Cover by Skylight JJ)", bpm: 150, locked: false, file: "power"},
     {name: "Cool Test", artist: "Skylight JJ", bpm: 60, locked: true, file: "test"},
@@ -98,7 +98,7 @@ function togglePlay() {
         audio.pause()
         audio.currentTime = 0
         curSong = curSel
-        audio.src = 'https://github.com/SkylightJJ/Skylight-s-webpage/raw/refs/heads/main/music/' + songs.at(curSong).file + '.mp3'
+        audio.src = songs.at(curSong).file
     }
 
     if (audio.paused) {
