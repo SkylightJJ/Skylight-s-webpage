@@ -1,0 +1,15 @@
+@font-face { font-family: MT-Normal; src: url('fonts/normal.ttf'); }
+@font-face { font-family: MT-Fancy; src: url('fonts/fancy.ttf'); }
+@font-face { font-family: FiveBySeven; src: url('fonts/5by7.ttf'); }
+@font-face { font-family: FiveBySeven; font-weight: bold; src: url('fonts/5by7_b.ttf'); }
+
+@keyframes scrollGlow {
+    0% {color: rgb(255, 255, 255);}
+    50% {color: rgb(200, 200, 200);}
+    100% {color: rgb(255, 255, 255);}
+}
+
+.glow {
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    animation: scrollGlow 5s ease-in-out infinite;
+}
