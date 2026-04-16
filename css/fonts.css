@@ -1,6 +1,6 @@
 @font-face { font-family: MT-Normal; src: url('fonts/normal.ttf'); }
 @font-face { font-family: MT-Fancy; src: url('fonts/fancy.ttf'); }
-@font-face { font-family: FiveBySeven; src: url('fonts/5by7.ttf'); }
+@font-face { font-family: FiveBySeven; src: url('https://cdn.jsdelivr.net/gh/SkylightJJ/Skylight-s-webpage/fonts/5by7.ttf'); }
 @font-face { font-family: FiveBySeven; font-weight: bold; src: url('fonts/5by7_b.ttf'); }
 
 @keyframes scrollGlow {
